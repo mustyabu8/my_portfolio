@@ -1,14 +1,14 @@
 # Mustapha Abubakar Qurami — Personal Portfolio
 
-An 8-page personal portfolio website built for the **COEN 554 Web Programming**
-examination, Question One (Department of Computer Engineering, Ahmadu Bello
-University, Zaria).
+personal portfolio website built as the COEN 554 Web Programming
+examination 2025/2026 session, Department of Computer Engineering, Ahmadu Bello
+University, Zaria.
 
 ## Live requirement compliance
 
-- **No JavaScript.** No `.js` files, no inline scripts, no frameworks, no CMS.
-- Built only with **HTML5, CSS3 (Flexbox, Grid, media queries), JSON, and
-  JSON-LD**.
+- No JavaScript. No `.js` files, no inline scripts, no frameworks, no CMS.
+- Built only with HTML5, CSS3 (Flexbox, Grid, media queries), JSON, and
+  JSON-LD.
 - All interactivity (mobile navigation, project category filter) is done with
   pure CSS using the checkbox/radio-button technique.
 
