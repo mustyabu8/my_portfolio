@@ -1,0 +1,187 @@
+{
+  "personal": {
+    "id": "person-001",
+    "name": "Mustapha Abubakar Qurami",
+    "preferredName": "Musty",
+    "title": "Future Computer Engineer",
+    "tagline": "Aspiring Network Engineer | Front-End Developer | Graphic Designer | Youth Mentor",
+    "origin": "Qurami, Bakori, Katsina State, Nigeria",
+    "institution": "Ahmadu Bello University (ABU), Zaria, Nigeria",
+    "programme": "B.Eng. Computer Engineering",
+    "status": "Currently pursuing degree",
+    "careerObjective": "Aspiring Network Engineer and future Computer Engineer seeking to develop strong expertise in computer networking, infrastructure, web technologies, and related engineering fields.",
+    "summary": "Final-year Computer Engineering student at Ahmadu Bello University with a primary interest in Network Engineering, complemented by hands-on experience in front-end web development, graphic design, and youth mentorship.",
+    "image": "images/front-image.jpg"
+  },
+
+  "education": [
+    {
+      "id": "edu-001",
+      "level": "Primary Education",
+      "institution": "Model Staff School, Bakori",
+      "qualification": "Primary School Leaving Certificate",
+      "status": "Completed"
+    },
+    {
+      "id": "edu-002",
+      "level": "Secondary Education",
+      "institution": "Government Technical College, Funtua, Katsina State",
+      "qualification": "NABTEB Secondary School Certificate",
+      "status": "Completed"
+    },
+    {
+      "id": "edu-003",
+      "level": "Higher Education",
+      "institution": "Ahmadu Bello University (ABU), Zaria",
+      "qualification": "B.Eng. Computer Engineering",
+      "status": "Currently pursuing"
+    }
+  ],
+
+  "certifications": [
+    {
+      "id": "cert-001",
+      "provider": "Cisco Networking Academy",
+      "name": "HTML",
+      "status": "Completed"
+    },
+    {
+      "id": "cert-002",
+      "provider": "Cisco Networking Academy",
+      "name": "CSS",
+      "status": "Completed"
+    },
+    {
+      "id": "cert-003",
+      "provider": "Cisco Networking Academy",
+      "name": "Cybersecurity Fundamentals",
+      "status": "Completed"
+    },
+    {
+      "id": "cert-004",
+      "provider": "Cisco Networking Academy",
+      "name": "Cybersecurity Essentials",
+      "status": "Completed"
+    },
+    {
+      "id": "cert-005",
+      "provider": "Cisco Academy, ABU Zaria",
+      "name": "CCNA",
+      "status": "Currently pursuing"
+    }
+  ],
+
+  "skills": [
+    { "id": "skill-001", "category": "Web Development", "name": "HTML5", "level": "Intermediate" },
+    { "id": "skill-002", "category": "Web Development", "name": "CSS3", "level": "Intermediate" },
+    { "id": "skill-003", "category": "Web Development", "name": "Responsive Web Design", "level": "Intermediate" },
+    { "id": "skill-004", "category": "Web Development", "name": "Front-End Development", "level": "Intermediate" },
+
+    { "id": "skill-005", "category": "Networking", "name": "Networking Fundamentals", "level": "Developing" },
+    { "id": "skill-006", "category": "Networking", "name": "Cisco Networking Concepts", "level": "Developing" },
+    { "id": "skill-007", "category": "Networking", "name": "CCNA Preparation", "level": "In progress" },
+
+    { "id": "skill-008", "category": "Cybersecurity", "name": "Cybersecurity Fundamentals", "level": "Familiar with" },
+    { "id": "skill-009", "category": "Cybersecurity", "name": "Cybersecurity Essentials", "level": "Familiar with" },
+
+    { "id": "skill-010", "category": "Design", "name": "Graphic Design", "level": "Intermediate" },
+    { "id": "skill-011", "category": "Design", "name": "UI / Visual Design", "level": "Intermediate" }
+  ],
+
+  "projects": [
+    {
+      "id": "proj-001",
+      "title": "COEN 554 Personal Portfolio Website",
+      "category": "web",
+      "description": "An 8-page responsive personal portfolio built strictly with HTML5, CSS3, Flexbox/Grid and JSON for the COEN 554 Web Programming examination — no JavaScript.",
+      "technology": ["HTML5", "CSS3", "JSON", "JSON-LD"],
+      "role": "Designer & Developer",
+      "image": "images/front-image.jpg",
+      "link": "index.html"
+    },
+    {
+      "id": "proj-002",
+      "title": "ID Card Frame Design — Abubakar Musa (Barde)",
+      "category": "design",
+      "description": "A commemorative photo-frame design produced for Hon. Abubakar Musa (Barde), Executive Chairman, Bakori Local Government Council.",
+      "technology": ["Graphic Design"],
+      "role": "Graphic Designer",
+      "image": "images/projects/barde-id-frame.jpg"
+    },
+    {
+      "id": "proj-003",
+      "title": "ID Card Frame Design — Naufal Ahmad",
+      "category": "design",
+      "description": "A commemorative photo-frame design produced for Naufal Ahmad, Director General, Katsina Directorate of Information and Communication Technology (KATDICT).",
+      "technology": ["Graphic Design"],
+      "role": "Graphic Designer",
+      "image": "images/projects/naufal-id-frame.jpg"
+    },
+    {
+      "id": "proj-004",
+      "title": "Logo Design — United Citizens for Progress",
+      "category": "design",
+      "description": "A brand logo designed for United Citizens for Progress, combining a five-figure unity motif with an idea-bulb mark.",
+      "technology": ["Logo Design", "Brand Identity"],
+      "role": "Graphic Designer",
+      "image": "images/projects/ucp-logo.jpg"
+    },
+    {
+      "id": "proj-005",
+      "title": "Letterhead Design — United Citizens for Progress",
+      "category": "design",
+      "description": "Official letterhead design produced to match the United Citizens for Progress brand identity.",
+      "technology": ["Print Design", "Brand Identity"],
+      "role": "Graphic Designer",
+      "image": "images/projects/ucp-letterhead.jpg"
+    },
+    {
+      "id": "proj-006",
+      "title": "Flyer Design — Bugaje's Vogue",
+      "category": "design",
+      "description": "A promotional flyer for Bugaje's Vogue, a fashion, tailoring and styling brand, showcasing services and fabric samples.",
+      "technology": ["Flyer Design", "Print Design"],
+      "role": "Graphic Designer",
+      "image": "images/projects/bugaje-vogue-flyer.jpg"
+    },
+    {
+      "id": "proj-007",
+      "title": "Eid Flyer Design — Bugaje",
+      "category": "design",
+      "description": "A festive Eid greetings flyer designed for the Bugaje brand.",
+      "technology": ["Flyer Design"],
+      "role": "Graphic Designer",
+      "image": "images/projects/bugaje-eid-flyer.jpg"
+    },
+    {
+      "id": "proj-008",
+      "title": "B.Eng. Final Year Project — Network Operations Center",
+      "category": "network",
+      "description": "Design and implementation of a Network Operations Center (NOC) as part of the Computer Engineering final year project requirement.",
+      "technology": ["Networking", "Systems Design"],
+      "role": "Student Researcher",
+      "image": null,
+      "link": null
+    }
+  ],
+
+  "hobbies": [
+    {
+      "id": "hobby-001",
+      "name": "Reciting the Holy Qur'an",
+      "description": "Regularly reciting the Holy Qur'an as a source of personal grounding and discipline."
+    },
+    {
+      "id": "hobby-002",
+      "name": "Sleeping",
+      "description": "Valuing rest as an important part of maintaining focus and wellbeing alongside academic and creative work."
+    }
+  ],
+
+  "contact": {
+    "email": "mystyabu8@gmail.com",
+    "phone": "+2348079490301",
+    "location": "Zaria, Kaduna State, Nigeria",
+    "formEndpointNote": "This is a static, JavaScript-free contact form for the examination deliverable. A real submission would require a backend form-handling endpoint (e.g. a server-side script or a form service) to be added here before deployment."
+  }
+}

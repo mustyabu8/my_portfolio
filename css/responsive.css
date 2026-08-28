@@ -1,0 +1,74 @@
+/* ===================================================================
+   RESPONSIVE.CSS — breakpoint refinements
+   Mobile-first base lives in style.css via clamp()/auto-fit grids;
+   this file layers on tablet/small-phone/print adjustments.
+   =================================================================== */
+
+/* ---- Tablet (≤ 1024px) ---- */
+@media (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-brand {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ---- Small tablet / large phone (≤ 700px) ---- */
+@media (max-width: 700px) {
+  section { padding-block: var(--space-lg); }
+
+  .cv-top {
+    flex-direction: column;
+  }
+
+  .status-strip .row {
+    font-size: 0.75rem;
+  }
+
+  .filter-bar {
+    gap: 0.4rem;
+  }
+
+  .filter-bar label {
+    padding: 0.45em 0.85em;
+    font-size: 0.72rem;
+  }
+}
+
+/* ---- Small phones (≤ 420px) ---- */
+@media (max-width: 420px) {
+  .container { padding-inline: 1rem; }
+
+  h1 { font-size: 1.8rem; }
+
+  .btn { width: 100%; justify-content: center; }
+  .btn-row { flex-direction: column; }
+
+  .hero-portrait::before { display: none; }
+}
+
+/* ---- Print (CV page) ---- */
+@media print {
+  .site-header,
+  .site-footer,
+  .btn-row,
+  .route-trail {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .cv-shell {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
